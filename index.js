@@ -14,4 +14,7 @@ const welcomeMessage = 'Welcome to Flatbook, ' + currentUser+'!';
 // avoding repeating ourselves and use .toUpperCase()
 const excitedWelcomeMessage = welcomeMessage.toUpperCase();
 
+// .slice() method is more flexible -- .slice(letter, end of output)
+// let user = 'Matthew'
+// user.slice(3) => "thew"
 const shortGreeting = `Welcome, ${currentUser.slice(0, 1)}!`;
